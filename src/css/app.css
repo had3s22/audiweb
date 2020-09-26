@@ -1,0 +1,13 @@
+.App {
+    display: flex;
+}
+
+.AppItem {
+    flex-grow: 1;
+    height: 100vh;
+    background-color: blue;
+}
+
+.AppItem + .AppItem {
+    margin-left: 2vw;
+}

@@ -1,0 +1,28 @@
+.ArchPanel{
+    flex-grow: 1;
+}
+
+.LayerList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Layer {
+    width: 50%;
+    margin-bottom: 10px;
+    background-color: red;
+}
+
+.FeatureList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Feature {
+    width: 90%;
+    height: 6px;
+    margin-bottom: 3px;
+    background-color: green;
+}
