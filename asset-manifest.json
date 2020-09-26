@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/audiweb/static/css/main.651fb295.chunk.css",
-    "main.js": "/audiweb/static/js/main.bcc8700a.chunk.js",
-    "main.js.map": "/audiweb/static/js/main.bcc8700a.chunk.js.map",
+    "main.js": "/audiweb/static/js/main.3278eaba.chunk.js",
+    "main.js.map": "/audiweb/static/js/main.3278eaba.chunk.js.map",
     "runtime-main.js": "/audiweb/static/js/runtime-main.8066537a.js",
     "runtime-main.js.map": "/audiweb/static/js/runtime-main.8066537a.js.map",
-    "static/js/2.240e3a36.chunk.js": "/audiweb/static/js/2.240e3a36.chunk.js",
-    "static/js/2.240e3a36.chunk.js.map": "/audiweb/static/js/2.240e3a36.chunk.js.map",
+    "static/js/2.1c7264ba.chunk.js": "/audiweb/static/js/2.1c7264ba.chunk.js",
+    "static/js/2.1c7264ba.chunk.js.map": "/audiweb/static/js/2.1c7264ba.chunk.js.map",
     "index.html": "/audiweb/index.html",
-    "precache-manifest.9362ed1b943e62a82db667e7960afaf1.js": "/audiweb/precache-manifest.9362ed1b943e62a82db667e7960afaf1.js",
+    "precache-manifest.7e010bf70b57902871c84b8c5728ba7d.js": "/audiweb/precache-manifest.7e010bf70b57902871c84b8c5728ba7d.js",
     "service-worker.js": "/audiweb/service-worker.js",
     "static/css/main.651fb295.chunk.css.map": "/audiweb/static/css/main.651fb295.chunk.css.map",
-    "static/js/2.240e3a36.chunk.js.LICENSE.txt": "/audiweb/static/js/2.240e3a36.chunk.js.LICENSE.txt"
+    "static/js/2.1c7264ba.chunk.js.LICENSE.txt": "/audiweb/static/js/2.1c7264ba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8066537a.js",
-    "static/js/2.240e3a36.chunk.js",
+    "static/js/2.1c7264ba.chunk.js",
     "static/css/main.651fb295.chunk.css",
-    "static/js/main.bcc8700a.chunk.js"
+    "static/js/main.3278eaba.chunk.js"
   ]
 }
