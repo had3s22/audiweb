@@ -1,14 +1,13 @@
 import React from "react";
-import useStateHook from "../../hooks/stateHook";
+import {setLayerFeatureNum} from "../../store/slices";
+import {useDispatch} from 'react-redux';
 
 const Feature = ({num, layerNum}) => {
+    const dispatch = useDispatch();
     const handleClick = (e) => {
-        setLayerNum(layerNum);
-        setFeatureNum(num);
-        console.log(layerNum,num);
+        dispatch(setLayerFeatureNum({layerNum: layerNum, featureNum: num}))
     }
-    const {setLayerNum, setFeatureNum} = useStateHook();
-    return <div className="Feature" onClick={handleClick}>{num}/{layerNum}</div>
+    return <div className="Feature" onClick={handleClick}></div>
 }
 
 export default Feature;

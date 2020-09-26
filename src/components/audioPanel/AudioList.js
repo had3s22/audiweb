@@ -1,10 +1,11 @@
 import React from "react";
 import Audio from "./Audio";
-import useStateHook from "../../hooks/stateHook";
+import {useSelector} from 'react-redux';
+import {getAudioList} from "../../store/slices";
 
 const AudioList = () => {
-    const {getAudioList} = useStateHook();
-    const audios = getAudioList().map((link) => <Audio key={link} link={link}/>);
+    const list = useSelector(getAudioList);
+    const audios = list.map((link) => <Audio key={link} link={link}/>);
     return <div className="AudioList">{audios}</div>
 }
 
