@@ -29,18 +29,19 @@ export const getAudioList = createSelector(
     [selectMode, selectLayerNum, selectFeatureNum],
     (mode, layerNum, featureNum) => {
         const ans = [];
-        const base = 'https://raw.githubusercontent.com/had3s22/audiweb/gh-pages/static/media';
+        // const base = 'https://raw.githubusercontent.com/had3s22/audiweb/gh-pages/static/media';
+        const base = process.env.PUBLIC_URL + '/assets/audios';
         if (mode === 1) {
             for (let i = 0; i < 1; i++) {
-                ans.push(`${base}/${mode}/layer${layerNum}_feature${featureNum}.wav`);
+                ans.push(`${base}/${mode}/layer${layerNum}_feature${featureNum - 1}.wav`);
             }
         } else if (mode === 1) {
             for (let i = 0; i < 10; i++) {
-                ans.push(`${base}/${i}/${mode}/${layerNum}/${featureNum}/`);
+                ans.push(`${base}/${i}/${mode}/${layerNum}/${featureNum - 1}/`);
             }
         } else if (mode === 2) {
             for (let i = 0; i < 10; i++) {
-                ans.push(`${base}/${i}/${mode}/${layerNum}/${featureNum}/`);
+                ans.push(`${base}/${i}/${mode}/${layerNum}/${featureNum - 1}/`);
             }
         }
         return ans;
