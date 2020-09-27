@@ -9,14 +9,14 @@ const Page2 = () => {
     return <React.Fragment>
         <MyHeader2/>
         <Row>
-            <Col span={12}>
+            <Col xs={{span: 12}} xl={{span: 8}}>
                 <Content style={{margin: '0 16px', height: 350, overflow: "auto"}}>
                     <div className="site-layout-background" style={{padding: 24, minHeight: 360}}>
                         <LayerList/>
                     </div>
                 </Content>
             </Col>
-            <Col span={12}>
+            <Col xs={{span: 12}} xl={{span: 16}}>
                 <Content style={{margin: '0 16px', height: 350, overflow: "auto"}}>
                     <div className="site-layout-background" style={{padding: 24, minHeight: 360}}>
                         <AudioList/>

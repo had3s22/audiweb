@@ -24,10 +24,10 @@ const MySider = () => {
                 Home
             </Menu.Item>
             <Menu.Item key="2" icon={<ExperimentOutlined/>} onClick={onClick(2)}>
-                Experiment 1
+                Sliced Audios
             </Menu.Item>
             <Menu.Item key="3" icon={<ExperimentOutlined/>} onClick={onClick(3)}>
-                Experiment 2
+                Inversion
             </Menu.Item>
         </Menu>
     </Sider>
