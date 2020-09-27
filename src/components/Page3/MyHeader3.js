@@ -7,9 +7,9 @@ const MyHeader2 = () => {
             <PageHeader
                 ghost={false}
                 title="Audiozation is whatever you want">
-                <p>In This experiment we reverted the trained model solely based on the
-                    running_mean and running_var of a certain input. You can see the original
-                    audios on the left and the inverted ones on the right.
+                <p>nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
+                    venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis
+                    leo. Sed fringilla mauris sit amet nibh. Donec sodales
                 </p>
             </PageHeader>
         </div>

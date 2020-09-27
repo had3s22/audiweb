@@ -7,10 +7,10 @@ const MyHeader2 = () => {
             <PageHeader
                 ghost={false}
                 title="Audiozation is whatever you want">
-                <p>In this experiment we sliced training audios to small fragments and then for a given
-                    feature, saw which of these slices activate that feature the most. Then, we merged those
-                    slices as a single audio. You can select a feature from a layer on the left, and get
-                    the corresponding audio on the right.
+                <p> Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
+                    venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis
+                    leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+                    Sed consequat, leo eget bibendum sodales, augue velit cursus nunc
                 </p>
             </PageHeader>
         </div>

@@ -2,7 +2,7 @@
   "name": "audio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://audioplaza.herokuapp.com/",
+  "homepage": "https://had3s22.github.io/audiweb/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.4.0",
     "@testing-library/jest-dom": "^4.2.4",
