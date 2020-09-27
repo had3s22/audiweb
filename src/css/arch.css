@@ -25,14 +25,14 @@
     width: 20px;
     height: 20px;
     margin: 1px;
-    background-color: orange;
+    background-color: #2195da;
     border: solid black 1px;
     border-radius: 25px;
     cursor: pointer;
 }
 
 .feature:hover{
-    background-color: yellow;
+    background-color: #e9e9a6;
 }
 
 .feature:nth-child(3n) {

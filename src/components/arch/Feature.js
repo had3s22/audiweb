@@ -6,7 +6,7 @@ const Feature = ({num, layerNum}) => {
     const dispatch = useDispatch();
     const f_num = useSelector(selectFeatureNum);
     const l_num = useSelector(selectLayerNum);
-    const color = f_num === num && l_num === layerNum ? 'green' : 'orange';
+    const color = f_num === num && l_num === layerNum ? '#1cf0f3' : '#1c1c1c';
     const handleClick = (e) => {
         dispatch(setLayerFeatureNum({layerNum: layerNum, featureNum: num}))
     }
