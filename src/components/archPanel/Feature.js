@@ -7,7 +7,8 @@ const Feature = ({num, layerNum}) => {
     const handleClick = (e) => {
         dispatch(setLayerFeatureNum({layerNum: layerNum, featureNum: num}))
     }
-    return <div className="Feature" onClick={handleClick}></div>
+    return <div className="feature" onClick={handleClick}/>
+
 }
 
 export default Feature;

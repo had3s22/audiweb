@@ -47,3 +47,18 @@ export const getAudioList = createSelector(
     })
 
 export const audioInfoReducer = AudioInfoSlice.reducer;
+
+export const PageNumberSlice = createSlice({
+    name: 'audioInfo',
+    initialState: 1,
+    reducers: {
+        setPageNumber: (state, action) => {
+            return action.payload;
+        },
+    },
+});
+
+export const pageNumberReducer = PageNumberSlice.reducer;
+export const {setPageNumber} = PageNumberSlice.actions;
+
+export const selectPageNumber = state => state.pageNumber;

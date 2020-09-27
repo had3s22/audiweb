@@ -3,8 +3,8 @@ import {useRef} from "react"
 
 const Audio = ({link}) => {
     const ref = useRef("audio_tag")
-    return <div className="Audio">
-        <audio ref={ref} controls={true} className="Audio" src={link}>
+    return <div className="audio">
+        <audio ref={ref} controls={true} className="audio" src={link}>
             <source src={link} type="audio/wav"/>
         </audio>
     </div>

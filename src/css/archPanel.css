@@ -1,28 +1,39 @@
-.ArchPanel{
+.arch-panel {
     flex-grow: 1;
 }
 
-.LayerList {
+.layer-list {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.Layer {
-    width: 50%;
+.layer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 75px;
+    width: 75px;
     margin-bottom: 10px;
-    background-color: red;
+    border: solid black 2px;
 }
 
-.FeatureList {
+.feature-list {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
-.Feature {
-    width: 90%;
-    height: 6px;
-    margin-bottom: 3px;
-    background-color: green;
+.feature {
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+    background-color: orange;
+    border: solid black 1px;
+    cursor: pointer;
+}
+
+.feature:hover{
+    background-color: yellow;
+}
+
+.feature:nth-child(3n) {
+    flex-basis: 30%;
 }
