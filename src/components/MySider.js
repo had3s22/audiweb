@@ -5,7 +5,7 @@ import {useDispatch} from 'react-redux';
 import {setPageNumber} from '../store/slices';
 
 const {Sider} = Layout;
-
+const {SubMenu} = Menu;
 const MySider = () => {
     const dispatch = useDispatch();
     const [collapsed, setCollapsed] = useState(false);
@@ -19,16 +19,18 @@ const MySider = () => {
                   collapsedWidth="0"
                   collapsible collapsed={collapsed} onCollapse={onCollapse}>
         <div className="logo"/>
-        <Menu theme="dark" defaultSelectedKeys={['2']} mode="inline">
+        <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
             <Menu.Item key="1" icon={<HomeOutlined/>} onClick={onClick(1)}>
                 Home
             </Menu.Item>
-            <Menu.Item key="2" icon={<ExperimentOutlined/>} onClick={onClick(2)}>
-                Sliced Audios
-            </Menu.Item>
-            <Menu.Item key="3" icon={<ExperimentOutlined/>} onClick={onClick(3)}>
-                Inversion
-            </Menu.Item>
+            <SubMenu key="sub1" icon={<ExperimentOutlined/>} title="Experiments">
+                <Menu.Item key="2" onClick={onClick(2)}>
+                    Sliced Audios
+                </Menu.Item>
+                <Menu.Item key="3" onClick={onClick(3)}>
+                    Inversion
+                </Menu.Item>
+            </SubMenu>
         </Menu>
     </Sider>
 }

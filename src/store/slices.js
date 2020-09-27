@@ -50,7 +50,7 @@ export const audioInfoReducer = AudioInfoSlice.reducer;
 
 export const PageNumberSlice = createSlice({
     name: 'audioInfo',
-    initialState: 2,
+    initialState: 1,
     reducers: {
         setPageNumber: (state, action) => {
             return action.payload;
