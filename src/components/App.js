@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/app.css';
 import '../css/arch.css';
 import '../css/audio.css';
+import '../css/fonts/Crimson_Text/CrimsonText-Regular.ttf';
 import {Layout} from 'antd';
 import Page1 from "./page1/Page1";
 import Page2 from "./page2/Page2";
