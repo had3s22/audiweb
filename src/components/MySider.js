@@ -1,8 +1,4 @@
 import React, {useState} from 'react';
-import '../css/app.css';
-import '../css/leftPanel.css';
-import '../css/archPanel.css';
-import '../css/audioPanel.css';
 import {Layout, Menu} from 'antd';
 import {ExperimentOutlined, HomeOutlined,} from '@ant-design/icons';
 import {useDispatch} from 'react-redux';
@@ -23,7 +19,7 @@ const MySider = () => {
                   collapsedWidth="0"
                   collapsible collapsed={collapsed} onCollapse={onCollapse}>
         <div className="logo"/>
-        <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
+        <Menu theme="dark" defaultSelectedKeys={['2']} mode="inline">
             <Menu.Item key="1" icon={<HomeOutlined/>} onClick={onClick(1)}>
                 Home
             </Menu.Item>

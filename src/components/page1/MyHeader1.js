@@ -3,7 +3,7 @@ import {PageHeader, Descriptions} from 'antd';
 import {Anchor} from 'antd';
 
 const {Link} = Anchor;
-const MyHeader = () => {
+const MyHeader1 = () => {
     return (
         <div className="site-page-header-ghost-wrapper">
             <PageHeader
@@ -22,4 +22,4 @@ const MyHeader = () => {
     )
 }
 
-export default MyHeader;
+export default MyHeader1;
