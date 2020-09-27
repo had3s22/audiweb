@@ -21,9 +21,9 @@ export const AudioInfoSlice = createSlice({
 
 export const {setLayerFeatureNum, setMode} = AudioInfoSlice.actions;
 
-const selectMode = state => state.audioInfo.mode;
-const selectLayerNum = state => state.audioInfo.layerNum;
-const selectFeatureNum = state => state.audioInfo.featureNum;
+export const selectMode = state => state.audioInfo.mode;
+export const selectLayerNum = state => state.audioInfo.layerNum;
+export const selectFeatureNum = state => state.audioInfo.featureNum;
 
 export const getAudioList = createSelector(
     [selectMode, selectLayerNum, selectFeatureNum],
