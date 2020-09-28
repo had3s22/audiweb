@@ -6,7 +6,7 @@ const MyHeader2 = () => {
         <div className="site-page-header-ghost-wrapper">
             <PageHeader
                 ghost={false}
-                title="Audiozation is whatever you want">
+                title="Donec quam felis, ultricies">
                 <p>nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
                     venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis
                     leo. Sed fringilla mauris sit amet nibh. Donec sodales
