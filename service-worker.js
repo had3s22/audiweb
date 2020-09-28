@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/audiweb/precache-manifest.d08f73cbae62158fbeeca4af008175ae.js"
+  "/audiweb/precache-manifest.f0c8ce8de0db2ed2b8d30d5f696058b4.js"
 );
 
 self.addEventListener('message', (event) => {

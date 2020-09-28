@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08382a2313c366e99470171c47423e17",
+    "revision": "90725904e5e5b2a8f453aceb219ab710",
     "url": "/audiweb/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/audiweb/static/css/2.cd846464.chunk.css"
   },
   {
-    "revision": "0816bf8b3bbac7098082",
+    "revision": "b5103c68aca1c456632a",
     "url": "/audiweb/static/css/main.9e08ec90.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/audiweb/static/js/2.dc5314f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0816bf8b3bbac7098082",
-    "url": "/audiweb/static/js/main.0d1c077b.chunk.js"
+    "revision": "b5103c68aca1c456632a",
+    "url": "/audiweb/static/js/main.e366c68d.chunk.js"
   },
   {
     "revision": "cd09b1b4c3812ecaee5f",
